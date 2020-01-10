@@ -13,6 +13,6 @@
 
 	$query=mysqli_query($koneksi,"INSERT INTO pembeli (username, password, nama, alamat, email, kontak) values ('$usernameku','$hashed','$namaku','$alamatku','$emailku','$teleponku')");
 
-	header("http://localhost:8080/PSW2/PA1/User/");
+	header("https://kopilintong.herokuapp.com/User/");
 
 ?>
